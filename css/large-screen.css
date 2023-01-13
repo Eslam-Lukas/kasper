@@ -1,0 +1,20 @@
+/* large screen  */
+@media (min-width:1200px){
+    .container{
+        max-width: 1170px;
+    }
+
+
+
+
+
+    header .container nav ul li::after {
+        bottom: calc(-50% - 13px);
+    }
+    /* end of portfolio */
+.portfolio .imges .box{
+    flex-basis: 25%;
+}
+/* end of portfolio */
+
+}

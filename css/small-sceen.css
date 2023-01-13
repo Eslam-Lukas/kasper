@@ -1,0 +1,100 @@
+/* small screen  */
+@media (min-width:768px) and (max-width:991px){
+/* start of data  */
+    .container{
+        max-width: 766px;
+    }
+    .componnt{
+        padding:calc(var(--secondary-padding , 20px) * 1.5) 0px ;
+    }
+/* start of data  */
+/* start of header section */
+    header .container nav ul li {
+        font-size: 20px;
+        padding: calc(var(--secondary-padding) / 2);
+    }
+    header .container nav ul li::after {
+        bottom: calc(-50% - 25px);
+    }
+/* end of header section */
+/* start of services section */
+    .services .serv-cont .box{
+        flex-flow: column nowrap;
+    }
+    .services .serv-cont .box .text{
+        padding: 15px;
+        text-align: center;
+    }
+    .services .serv-cont .box .text h4{
+        padding: 10px 0;
+    }
+/* end of services section */
+/* start of design section */
+.design .text{
+    width: 80%;
+    left: 10%;
+    top: revert;
+    transform: revert;
+    right: revert;
+}
+.design::after{
+    top: 65%;
+}
+/* end of design section */
+/* end of portfolio */
+.portfolio .imges .box{
+    flex-basis: 50%;
+}
+/* end of portfolio */
+
+/* start of video */
+.vedio .text {
+    padding: calc(var(--main-padding) / 2);
+}
+/* end of video */
+/* start of abous section  */
+.about .container{
+    min-height: 500px;
+}
+.about .container img{
+    bottom: -20%;
+    transform: translate(-50% , 0);
+    max-width: 600px;
+}
+/* end of abous section  */
+/* start of stats */
+.stats .container .box{
+    flex-basis: 50%;
+}
+.stats .container > :nth-child(3),
+.stats .container > :last-child  {
+    border-top: 2px solid var(--transpernt-text-color , #777);
+}
+/* end of stats */
+/* start of testimonials skills */
+.skill .container{
+    flex-direction: column;
+}
+.testimonials>:nth-of-type(2)> div{
+    justify-content: center;
+}
+.skill .progress .prog-holder{
+    padding: 0 var(--secondary-padding , 20px);
+}
+/* start of testimonials skills */
+
+/* start of pricing */
+    .pricing .price-list .box{
+        flex-basis: 48%;
+    }
+/* start of subscribe */
+    .subscribe form i {
+        left: 22%;
+    }
+
+
+}
+
+
+
+

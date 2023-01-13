@@ -1,0 +1,23 @@
+/* medium screen  */
+@media (min-width: 992px) and (max-width: 1199px){
+    .container{
+        max-width: 970px;
+    }
+    
+
+    header .container nav ul li::after {
+        bottom: calc(-50% - 1px);
+    }
+    /* end of portfolio */
+    .portfolio .imges .box{
+        flex-basis: calc(100% /3);
+    }
+/* end of portfolio */
+/* start of subscribe */
+    .subscribe form i {
+        left: 28%;
+    }
+
+
+
+}
